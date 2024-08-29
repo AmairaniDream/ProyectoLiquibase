@@ -1,0 +1,19 @@
+databaseChangeLog:
+- changeSet:
+    id: 1724628139025-1
+    author: jose.montano (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: CONSTRAINT_4
+            name: ID
+            type: INT
+        - column:
+            name: NAME
+            type: VARCHAR(255)
+        tableName: TEST1
+
